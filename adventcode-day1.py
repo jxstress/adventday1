@@ -8,7 +8,7 @@ def get_digits(text):
     return firstDigit, lastDigit
 
 
-file1 = open('/Users/n0044241/VS-Workspace/CES Workspace/grs-code-scripts-other/python/puzzle-input-day1.txt', 'r')
+file1 = open('puzzle-input-day1.txt', 'r')
 Lines = file1.readlines()
 
 sumNumbers = 0
