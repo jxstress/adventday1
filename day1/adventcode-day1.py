@@ -8,7 +8,7 @@ def get_digits(text):
     return firstDigit, lastDigit
 
 
-file1 = open('puzzle-input-day1.txt', 'r')
+file1 = open("puzzle-input-day1.txt", 'r')
 Lines = file1.readlines()
 
 sumNumbers = 0
@@ -16,7 +16,8 @@ sumNumbers = 0
 for line in Lines:
     firstDigit, lastDigit = get_digits(line.strip())
     combinedNumber = int(str(firstDigit) + str(lastDigit)) if firstDigit and lastDigit else None
-    sumNumbers = sumNumbers + combinedNumber
+    sumNumbers += combinedNumber
 
 
 print("Overall sum of numbers:", sumNumbers)
+#Answer Part 1: 53974
