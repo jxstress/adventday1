@@ -36,7 +36,7 @@ def get_digits(text):
     return firstDigit, lastDigit
 
 
-file1 = open("/Users/N0044241/OneDrive - Liberty Mutual/Documents/GitHub/adventday1/day1/puzzle-input-day1.txt", 'r')
+file1 = open("puzzle-input-day1.txt", 'r')
 
 Lines = file1.readlines()
 
